@@ -48,7 +48,6 @@ switch($args[0]){
     }
     "reset-db" {
         php artisan migrate:fresh --seed
-        break;
     }
     default {
         Help $false;
